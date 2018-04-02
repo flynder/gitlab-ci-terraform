@@ -2,9 +2,9 @@ FROM golang:alpine
 MAINTAINER "Sherif Abdalla <sherif@abdalla.uk>"
 
 LABEL name="terraform"
-LABEL version=0.11.4
+LABEL version=0.11.5
 
-ENV TERRAFORM_VERSION=0.11.4
+ENV TERRAFORM_VERSION=0.11.5
 
 RUN apk add --update git bash openssh
 
