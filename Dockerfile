@@ -1,5 +1,8 @@
 FROM golang:alpine
-MAINTAINER "HashiCorp Terraform Team <terraform@hashicorp.com>"
+MAINTAINER "Sherif Abdalla <sherif@abdalla.uk>"
+
+LABEL name="gitlab-ci-terraform"
+LABEL version=0.10.0
 
 ENV TERRAFORM_VERSION=0.10.0
 
